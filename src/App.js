@@ -1,13 +1,10 @@
 import React from "react"
+import HomePage from "./pages/homepage.component"
+
 import "./App.css"
-import HomePage from "./HomePage.component"
 
 function App() {
-  return (
-    <div>
-      <HomePage />
-    </div>
-  )
+  return <HomePage />
 }
 
 export default App
