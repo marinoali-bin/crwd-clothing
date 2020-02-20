@@ -3,8 +3,8 @@ import "./homepage.style.scss"
 
 import Directory from "../../components/directory/directory.component"
 
-const HomePage = props => {
-  console.log(props)
+const HomePage = ({ history }) => {
+  console.log(history)
   return (
     <div className="homepage">
       <Directory />
